@@ -104,3 +104,4 @@ ENV/
 .mypy_cache/
 
 cdk.out/
+.netrc

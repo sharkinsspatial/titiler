@@ -14,7 +14,6 @@ from config import StackSettings
 
 settings = StackSettings()
 
-
 DEFAULT_ENV = dict(
     CPL_TMPDIR="/tmp",
     CPL_VSIL_CURL_ALLOWED_EXTENSIONS=".tif",
@@ -26,6 +25,9 @@ DEFAULT_ENV = dict(
     PYTHONWARNINGS="ignore",
     VSI_CACHE="TRUE",
     VSI_CACHE_SIZE="1000000",
+    GDAL_HTTP_COOKIEJAR="/tmp/edl_cookies",
+    GDAL_HTTP_COOKIEFILE="/tmp/edl_cookies",
+    HOME="/var/task/titiler/auth"
 )
 
 
